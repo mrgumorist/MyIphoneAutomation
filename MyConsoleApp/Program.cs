@@ -15,7 +15,7 @@ namespace MyConsoleApp
             phoneJobService.ConnectPhone();
             phoneJobService.UnlockPhone();
             phoneJobService.MakeScreenshot();
-            phoneJobService.SaveLastScreenShot("C:/Users/mrgumorist/source/repos/ConsoleApp28/ConsoleApp28");
+            phoneJobService.SaveLastScreenShot("D:/Files");
             Thread.Sleep(5000);
             phoneJobService.LockPhone();
             phoneJobService.DisconnectPhone();
